@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>koa2</title>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			fetch('/json').then(res=>res.json()).then(res=>{
+				console.log(res)
+				document.write(res.title)
+				
+			})
+		</script>
+	</body>
+</html>
